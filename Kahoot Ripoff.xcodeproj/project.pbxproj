@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51174DC32859C2AC00B8B701 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51174DC22859C2AC00B8B701 /* SwiftUIView.swift */; };
+		51444833285D772B008B5E98 /* ResultSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51444832285D772B008B5E98 /* ResultSheet.swift */; };
 		518AA8C92859A8FD00F15532 /* Kahoot_RipoffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518AA8C82859A8FD00F15532 /* Kahoot_RipoffApp.swift */; };
 		518AA8CB2859A8FD00F15532 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518AA8CA2859A8FD00F15532 /* ContentView.swift */; };
 		518AA8CD2859A8FF00F15532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518AA8CC2859A8FF00F15532 /* Assets.xcassets */; };
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		51174DC22859C2AC00B8B701 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		51444832285D772B008B5E98 /* ResultSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultSheet.swift; sourceTree = "<group>"; };
 		518AA8C52859A8FD00F15532 /* Kahoot Ripoff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kahoot Ripoff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		518AA8C82859A8FD00F15532 /* Kahoot_RipoffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kahoot_RipoffApp.swift; sourceTree = "<group>"; };
 		518AA8CA2859A8FD00F15532 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,8 +100,8 @@
 			children = (
 				518AA8C82859A8FD00F15532 /* Kahoot_RipoffApp.swift */,
 				518AA8F22859B7AE00F15532 /* Question.swift */,
-				51174DC22859C2AC00B8B701 /* SwiftUIView.swift */,
 				518AA8CA2859A8FD00F15532 /* ContentView.swift */,
+				51444832285D772B008B5E98 /* ResultSheet.swift */,
 				518AA8CC2859A8FF00F15532 /* Assets.xcassets */,
 				518AA8CE2859A8FF00F15532 /* Preview Content */,
 			);
@@ -263,9 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51444833285D772B008B5E98 /* ResultSheet.swift in Sources */,
 				518AA8F32859B7AE00F15532 /* Question.swift in Sources */,
 				518AA8CB2859A8FD00F15532 /* ContentView.swift in Sources */,
-				51174DC32859C2AC00B8B701 /* SwiftUIView.swift in Sources */,
 				518AA8C92859A8FD00F15532 /* Kahoot_RipoffApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

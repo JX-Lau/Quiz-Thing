@@ -1,13 +1,6 @@
-//
-//  SwiftUIView.swift
-//  Kahoot Ripoff
-//
-//  Created by TinkerTanker on 15/6/22.
-//
-
 import SwiftUI
 
-struct SwiftUIView: View {
+struct ResultSheet: View {
     var s: Int
     var body: some View {
         VStack {
@@ -26,7 +19,7 @@ struct SwiftUIView: View {
 
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIView(s: 2)
+        SwiftUIView(s: 4)
         
     }
 }

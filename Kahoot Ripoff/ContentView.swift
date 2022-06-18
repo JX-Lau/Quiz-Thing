@@ -106,7 +106,7 @@ struct ContentView: View {
             }
         
             .sheet(isPresented: $isSheetShown) {
-                SwiftUIView(s: score)
+                ResultSheet(s: score)
             }
             .alert("__Wrong!!! *OUTRAGEOUS* How could you get such a simple question wrong!??!!?!?!__", isPresented: $wrongAlertShown) {
                 Button(role: .none) {
