@@ -19,7 +19,7 @@ struct ResultSheet: View {
 
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIView(s: 4)
+        ResultSheet(s: 4)
         
     }
 }
