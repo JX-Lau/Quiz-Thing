@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51174DC32859C2AC00B8B701 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51174DC22859C2AC00B8B701 /* SwiftUIView.swift */; };
+		518AA8C92859A8FD00F15532 /* Kahoot_RipoffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518AA8C82859A8FD00F15532 /* Kahoot_RipoffApp.swift */; };
+		518AA8CB2859A8FD00F15532 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518AA8CA2859A8FD00F15532 /* ContentView.swift */; };
+		518AA8CD2859A8FF00F15532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518AA8CC2859A8FF00F15532 /* Assets.xcassets */; };
+		518AA8D02859A8FF00F15532 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518AA8CF2859A8FF00F15532 /* Preview Assets.xcassets */; };
+		518AA8DA2859A8FF00F15532 /* Kahoot_RipoffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518AA8D92859A8FF00F15532 /* Kahoot_RipoffTests.swift */; };
+		518AA8E42859A8FF00F15532 /* Kahoot_RipoffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518AA8E32859A8FF00F15532 /* Kahoot_RipoffUITests.swift */; };
+		518AA8E62859A8FF00F15532 /* Kahoot_RipoffUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518AA8E52859A8FF00F15532 /* Kahoot_RipoffUITestsLaunchTests.swift */; };
+		518AA8F32859B7AE00F15532 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518AA8F22859B7AE00F15532 /* Question.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		518AA8D62859A8FF00F15532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 518AA8BD2859A8FD00F15532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 518AA8C42859A8FD00F15532;
+			remoteInfo = "Kahoot Ripoff";
+		};
+		518AA8E02859A8FF00F15532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 518AA8BD2859A8FD00F15532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 518AA8C42859A8FD00F15532;
+			remoteInfo = "Kahoot Ripoff";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51174DC22859C2AC00B8B701 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		518AA8C52859A8FD00F15532 /* Kahoot Ripoff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kahoot Ripoff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		518AA8C82859A8FD00F15532 /* Kahoot_RipoffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kahoot_RipoffApp.swift; sourceTree = "<group>"; };
+		518AA8CA2859A8FD00F15532 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		518AA8CC2859A8FF00F15532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		518AA8CF2859A8FF00F15532 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		518AA8D52859A8FF00F15532 /* Kahoot RipoffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kahoot RipoffTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		518AA8D92859A8FF00F15532 /* Kahoot_RipoffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kahoot_RipoffTests.swift; sourceTree = "<group>"; };
+		518AA8DF2859A8FF00F15532 /* Kahoot RipoffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kahoot RipoffUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		518AA8E32859A8FF00F15532 /* Kahoot_RipoffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kahoot_RipoffUITests.swift; sourceTree = "<group>"; };
+		518AA8E52859A8FF00F15532 /* Kahoot_RipoffUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kahoot_RipoffUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		518AA8F22859B7AE00F15532 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		518AA8C22859A8FD00F15532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518AA8D22859A8FF00F15532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518AA8DC2859A8FF00F15532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		518AA8BC2859A8FD00F15532 = {
+			isa = PBXGroup;
+			children = (
+				518AA8C72859A8FD00F15532 /* Kahoot Ripoff */,
+				518AA8D82859A8FF00F15532 /* Kahoot RipoffTests */,
+				518AA8E22859A8FF00F15532 /* Kahoot RipoffUITests */,
+				518AA8C62859A8FD00F15532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		518AA8C62859A8FD00F15532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				518AA8C52859A8FD00F15532 /* Kahoot Ripoff.app */,
+				518AA8D52859A8FF00F15532 /* Kahoot RipoffTests.xctest */,
+				518AA8DF2859A8FF00F15532 /* Kahoot RipoffUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		518AA8C72859A8FD00F15532 /* Kahoot Ripoff */ = {
+			isa = PBXGroup;
+			children = (
+				518AA8C82859A8FD00F15532 /* Kahoot_RipoffApp.swift */,
+				518AA8F22859B7AE00F15532 /* Question.swift */,
+				51174DC22859C2AC00B8B701 /* SwiftUIView.swift */,
+				518AA8CA2859A8FD00F15532 /* ContentView.swift */,
+				518AA8CC2859A8FF00F15532 /* Assets.xcassets */,
+				518AA8CE2859A8FF00F15532 /* Preview Content */,
+			);
+			path = "Kahoot Ripoff";
+			sourceTree = "<group>";
+		};
+		518AA8CE2859A8FF00F15532 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				518AA8CF2859A8FF00F15532 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		518AA8D82859A8FF00F15532 /* Kahoot RipoffTests */ = {
+			isa = PBXGroup;
+			children = (
+				518AA8D92859A8FF00F15532 /* Kahoot_RipoffTests.swift */,
+			);
+			path = "Kahoot RipoffTests";
+			sourceTree = "<group>";
+		};
+		518AA8E22859A8FF00F15532 /* Kahoot RipoffUITests */ = {
+			isa = PBXGroup;
+			children = (
+				518AA8E32859A8FF00F15532 /* Kahoot_RipoffUITests.swift */,
+				518AA8E52859A8FF00F15532 /* Kahoot_RipoffUITestsLaunchTests.swift */,
+			);
+			path = "Kahoot RipoffUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		518AA8C42859A8FD00F15532 /* Kahoot Ripoff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518AA8E92859A8FF00F15532 /* Build configuration list for PBXNativeTarget "Kahoot Ripoff" */;
+			buildPhases = (
+				518AA8C12859A8FD00F15532 /* Sources */,
+				518AA8C22859A8FD00F15532 /* Frameworks */,
+				518AA8C32859A8FD00F15532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kahoot Ripoff";
+			productName = "Kahoot Ripoff";
+			productReference = 518AA8C52859A8FD00F15532 /* Kahoot Ripoff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		518AA8D42859A8FF00F15532 /* Kahoot RipoffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518AA8EC2859A8FF00F15532 /* Build configuration list for PBXNativeTarget "Kahoot RipoffTests" */;
+			buildPhases = (
+				518AA8D12859A8FF00F15532 /* Sources */,
+				518AA8D22859A8FF00F15532 /* Frameworks */,
+				518AA8D32859A8FF00F15532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				518AA8D72859A8FF00F15532 /* PBXTargetDependency */,
+			);
+			name = "Kahoot RipoffTests";
+			productName = "Kahoot RipoffTests";
+			productReference = 518AA8D52859A8FF00F15532 /* Kahoot RipoffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		518AA8DE2859A8FF00F15532 /* Kahoot RipoffUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518AA8EF2859A8FF00F15532 /* Build configuration list for PBXNativeTarget "Kahoot RipoffUITests" */;
+			buildPhases = (
+				518AA8DB2859A8FF00F15532 /* Sources */,
+				518AA8DC2859A8FF00F15532 /* Frameworks */,
+				518AA8DD2859A8FF00F15532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				518AA8E12859A8FF00F15532 /* PBXTargetDependency */,
+			);
+			name = "Kahoot RipoffUITests";
+			productName = "Kahoot RipoffUITests";
+			productReference = 518AA8DF2859A8FF00F15532 /* Kahoot RipoffUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		518AA8BD2859A8FD00F15532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					518AA8C42859A8FD00F15532 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					518AA8D42859A8FF00F15532 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 518AA8C42859A8FD00F15532;
+					};
+					518AA8DE2859A8FF00F15532 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 518AA8C42859A8FD00F15532;
+					};
+				};
+			};
+			buildConfigurationList = 518AA8C02859A8FD00F15532 /* Build configuration list for PBXProject "Kahoot Ripoff" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 518AA8BC2859A8FD00F15532;
+			productRefGroup = 518AA8C62859A8FD00F15532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				518AA8C42859A8FD00F15532 /* Kahoot Ripoff */,
+				518AA8D42859A8FF00F15532 /* Kahoot RipoffTests */,
+				518AA8DE2859A8FF00F15532 /* Kahoot RipoffUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		518AA8C32859A8FD00F15532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518AA8D02859A8FF00F15532 /* Preview Assets.xcassets in Resources */,
+				518AA8CD2859A8FF00F15532 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518AA8D32859A8FF00F15532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518AA8DD2859A8FF00F15532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		518AA8C12859A8FD00F15532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518AA8F32859B7AE00F15532 /* Question.swift in Sources */,
+				518AA8CB2859A8FD00F15532 /* ContentView.swift in Sources */,
+				51174DC32859C2AC00B8B701 /* SwiftUIView.swift in Sources */,
+				518AA8C92859A8FD00F15532 /* Kahoot_RipoffApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518AA8D12859A8FF00F15532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518AA8DA2859A8FF00F15532 /* Kahoot_RipoffTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518AA8DB2859A8FF00F15532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518AA8E62859A8FF00F15532 /* Kahoot_RipoffUITestsLaunchTests.swift in Sources */,
+				518AA8E42859A8FF00F15532 /* Kahoot_RipoffUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		518AA8D72859A8FF00F15532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 518AA8C42859A8FD00F15532 /* Kahoot Ripoff */;
+			targetProxy = 518AA8D62859A8FF00F15532 /* PBXContainerItemProxy */;
+		};
+		518AA8E12859A8FF00F15532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 518AA8C42859A8FD00F15532 /* Kahoot Ripoff */;
+			targetProxy = 518AA8E02859A8FF00F15532 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		518AA8E72859A8FF00F15532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		518AA8E82859A8FF00F15532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		518AA8EA2859A8FF00F15532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kahoot Ripoff/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "random.stuff.Kahoot-Ripoff";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		518AA8EB2859A8FF00F15532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kahoot Ripoff/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "random.stuff.Kahoot-Ripoff";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		518AA8ED2859A8FF00F15532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "random.stuff.Kahoot-RipoffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kahoot Ripoff.app/Kahoot Ripoff";
+			};
+			name = Debug;
+		};
+		518AA8EE2859A8FF00F15532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "random.stuff.Kahoot-RipoffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kahoot Ripoff.app/Kahoot Ripoff";
+			};
+			name = Release;
+		};
+		518AA8F02859A8FF00F15532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "random.stuff.Kahoot-RipoffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kahoot Ripoff";
+			};
+			name = Debug;
+		};
+		518AA8F12859A8FF00F15532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "random.stuff.Kahoot-RipoffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kahoot Ripoff";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		518AA8C02859A8FD00F15532 /* Build configuration list for PBXProject "Kahoot Ripoff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518AA8E72859A8FF00F15532 /* Debug */,
+				518AA8E82859A8FF00F15532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518AA8E92859A8FF00F15532 /* Build configuration list for PBXNativeTarget "Kahoot Ripoff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518AA8EA2859A8FF00F15532 /* Debug */,
+				518AA8EB2859A8FF00F15532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518AA8EC2859A8FF00F15532 /* Build configuration list for PBXNativeTarget "Kahoot RipoffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518AA8ED2859A8FF00F15532 /* Debug */,
+				518AA8EE2859A8FF00F15532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518AA8EF2859A8FF00F15532 /* Build configuration list for PBXNativeTarget "Kahoot RipoffUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518AA8F02859A8FF00F15532 /* Debug */,
+				518AA8F12859A8FF00F15532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 518AA8BD2859A8FD00F15532 /* Project object */;
+}
